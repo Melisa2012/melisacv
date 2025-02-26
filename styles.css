@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7bed1;
+    color: #333;
+}
+
+h2, h3, h4 {
+    color: #d81b60;
+}
+
+
+.sidebar {
+    width: 250px;
+    background-color: #f1aac3;
+    color: #c2185b;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.profile-pic {
+    background-color: #fce4ec;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.sidebar i {
+    margin-right: 10px;
+    color: #d81b60;
+}
+
+.centered-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center; /* Center the list */
+}
+
+.centered-list li {
+    margin: 20px 0;
+}
+
+
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    background-color:rgb(230, 199, 204);
+}
+
+.profile,
+.experience,
+.education {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #d81b60;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #c2185b;
+}
+
+h4 {
+    font-size: 18px;
+    color: #f50057;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.fas {
+    font-size: 20px;
+    color: #d81b60;
+}
+
+.fafa {
+    font-size: 24px;
+    color: #ff4081;
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr {
+    color: lightpink;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        margin-left: 220px;
+    }
+
+    .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}
